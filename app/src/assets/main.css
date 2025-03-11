@@ -1,5 +1,8 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: dim -- :default, emerald --prefersdark;
+    
+}
 
 html, body {
   height: 100%;
@@ -8,4 +11,5 @@ html, body {
 
 #app {
   min-height: 100%;
+  
 }

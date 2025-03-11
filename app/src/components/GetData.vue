@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>{{ thing.police_precinct_geographic }}</h2>
+    <h1>{{ thing.value }}</h1>
   </div>
 </template>
 
