@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import ShootingsChart from '@/components/RaceCharts.vue'
+import ShootingsChart from '@/components/BoroCharts.vue'
 import { onMounted, ref } from 'vue'
 
 const incidents = ref([])

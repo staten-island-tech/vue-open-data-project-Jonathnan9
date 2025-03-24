@@ -7,8 +7,6 @@ import SpecificArea from './components/SpecificArea.vue'
 <template>
   <div>
     <NavBar />
-    <SpecificArea />
-    <RouterLink to="/">Home</RouterLink>
 
     <div class="min-h-screen flex flex-col pt-16">
       <div class="flex-1 p-4">

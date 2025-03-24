@@ -2,7 +2,7 @@
   <div class="min-h-screen flex items-center justify-center">
     <div
       v-if="location && location.length > 0"
-      class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-25"
+      class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-5"
     >
       <div
         v-for="(loc, index) in location"
